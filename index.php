@@ -93,7 +93,7 @@
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="Mymodalregistrar"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <form class="modal-content" action="usuarioAgregar.php" method="POST">
+                <form class="modal-content" action="usuarioAgregarLogin.php" method="POST">
                     <div class="modal-header">
                         <h5 class="modal-title" id="modalRegistro">Formulario de registro</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
