@@ -44,7 +44,7 @@ CREATE TABLE `productos` (
 
 CREATE TABLE `usuarios` (
   `idUsuario` int(9) NOT NULL,
-  `nombre` varchar(11) COLLATE utf8_spanish2_ci NOT NULL,
+  `nombre` varchar(100) COLLATE utf8_spanish2_ci NOT NULL,
   `identificacion` int(11) NOT NULL,
   `telefono` varchar(10) COLLATE utf8_spanish2_ci NOT NULL,
   `email` varchar(50) COLLATE utf8_spanish2_ci NOT NULL,
